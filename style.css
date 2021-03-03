@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*layout*/
+
+.layout-header-1{
+    width: 100%;
+    padding: 0 80px 0px 80px;
+    background-image: url(background-header.png);
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+    background-position: right;
+   
+}
+
+.layout-header-2{
+    width: 100%;
+    padding: 0 80px 0 80px;
+}
+
+.top-article{
+    width: 100%;
+    padding: 0 80px 0 80px;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+     
+}
+
+.bottom-article{
+    width: 100%;
+    padding: 0 80px 0 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+     
+}
+
+header{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+.bg-blue{
+  
+}
+
+.bg-grey{
+    background: rgb(222, 222, 225);
+}
+
+/*nav-bar*/
+
+.logo, nav{
+    display: inline-block;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+.nav ul{
+    float: left;
+}
+
+main{
+    width: 100%;
+}
+
+/*button-style*/
+
+
+
+.green-button-2{
+    padding: 15px;
+    background: rgb(118, 209, 26);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/*tag h*/
+
+h1{
+    width: 40%;
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+
+
+h3{
+    padding-top: 30px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 22px;
+   }
+
+h4{
+    color: rgb(101, 172, 74);
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+
+
+main section{
+    padding: 120px 0 120px 0;
+}
+
+
+section img{
+    display: block;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.box-section{
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+hr{
+    width: 50px;
+    margin: auto;
+    color: grey;
+}
+
+.box-article h2, p, a{
+    padding: 8px;
+}
+
+
+
+
+/*article*/
+
+.top-article{
+    margin-bottom: 80px;
+}
+
+.bottom-article img{
+    height: 350px;
+    padding-left: 150px;
+    display: block;
+}
+
+.box-article{
+    width: 70%;
+    padding: 15px 0 0 15px;   
+}
+
+
+
+
+
+
+
+
+
