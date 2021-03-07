@@ -54,16 +54,13 @@
 header{
     width: 1200px;
     margin: 0 200px 0 200px;
+    padding-top:10px;
 }
 
 /*nav-bar*/
 
 .logo{
     float: left;
-}
-
-header{
-    padding-top:10px;
 }
 
 header ul li{
@@ -152,9 +149,14 @@ article .center{
 }
 
 /*footer*/
+.layout-footer{
+    width: 1200px;
+    margin: 0 350px 0 350px;
+    margin: auto;
+ }
 
 footer{
-    padding: 30px 0 30px 0;
+    padding: 30px 0px 30px 0px;
 }
 
 .footer-sx{
@@ -168,7 +170,8 @@ footer{
 }
 
 footer img{
-    height: 350px;
+    height: 300px;
+    padding-left: 100px;
 }
 
 .footer-dx > *{
@@ -185,11 +188,22 @@ select{
     border: none;
 }
 
-.nav-bar-footer ul li{
-    vertical-align: middle;
+.footer-sx-bottom{
     float: left;
-    list-style: none;
 }
+
+
+.footer-dx-bottom{
+    float: right;
+}
+
+.footer-dx-bottom ul li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+}
+
 
 
 
