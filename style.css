@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 
 /*layout*/
@@ -12,6 +11,12 @@
    width: 1200px;
    margin: 0 250px 0 250px;
    margin: auto;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /*button-style*/
@@ -44,18 +49,11 @@
     background: rgb(9, 48, 107);
 }
 
-
 /*header*/
 
 header{
     width: 1200px;
     margin: 0 200px 0 200px;
-}
-
-.clearfix{
-    content: '';
-    display: table;
-    clear: both;
 }
 
 /*nav-bar*/
@@ -64,23 +62,30 @@ header{
     float: left;
 }
 
-ul li{
+header{
+    padding-top:10px;
+}
+
+header ul li{
     list-style: none;
     text-decoration: none;
     float: left;
+    padding-left: 15px;
 }
 
-ul{
+header ul{
     float: right;
 }
 
-
-ul li a{
+header ul li a{
     text-decoration: none;
     color: white;
     font-size: 12px;
 }
 
+header ul :nth-child(4){
+    padding-right: 180px;
+}
 
 /*hero-content*/
 
@@ -96,7 +101,7 @@ ul li a{
 }
 
 main section{
-    width: 40%;
+    width: 30%;
     padding-top: 80px;
 }
 
@@ -110,6 +115,13 @@ main section{
 }
 
 /*article*/
+
+h4{
+    color: rgb(127, 206, 127);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
 
 article{
     padding: 30px 0 30px 0;
@@ -135,6 +147,10 @@ article .center{
     margin: 0 5% 0 5%;
 }
 
+.box-section > p{
+    color: grey;
+}
+
 /*footer*/
 
 footer{
@@ -155,7 +171,25 @@ footer img{
     height: 350px;
 }
 
+.footer-dx > *{
+    padding-bottom: 15px;
+}
+.line{
+    width: 40px;
+    text-align: center;
+}
+
 /*nav-bar-footer*/
+
+select{
+    border: none;
+}
+
+.nav-bar-footer ul li{
+    vertical-align: middle;
+    float: left;
+    list-style: none;
+}
 
 
 
