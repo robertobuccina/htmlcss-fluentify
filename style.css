@@ -49,39 +49,45 @@
     background: rgb(9, 48, 107);
 }
 
-/*header*/
-
-header{
-    width: 1200px;
-    margin: 0 200px 0 200px;
-    padding-top:10px;
+.bg-grey-footer{
+    background:rgb(204, 201, 201) ;
 }
 
-/*nav-bar*/
+/*header-nav-bar*/
+
+header{
+    height: 70px;
+    vertical-align: middle;
+    line-height: 70px;
+}
 
 .logo{
     float: left;
 }
 
-header ul li{
+.logo img{
+    vertical-align: middle;
+}
+
+nav ul :nth-child(4){
+    padding-right: 180px;
+}
+
+nav ul li{
     list-style: none;
     text-decoration: none;
     float: left;
     padding-left: 15px;
 }
 
-header ul{
+nav ul{
     float: right;
 }
 
-header ul li a{
+nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 12px;
-}
-
-header ul :nth-child(4){
-    padding-right: 180px;
 }
 
 /*hero-content*/
@@ -122,6 +128,12 @@ h4{
 
 article{
     padding: 30px 0 30px 0;
+}
+
+/*article*/
+
+.grey-line{
+    width: 30%;
 }
 
 section img{
@@ -165,7 +177,7 @@ footer{
 }
 
 .footer-dx{
-    width: 35%;
+    width: 25%;
     float: left;
 }
 
@@ -177,6 +189,7 @@ footer img{
 .footer-dx > *{
     padding-bottom: 15px;
 }
+
 .line{
     width: 40px;
     text-align: center;
@@ -184,14 +197,19 @@ footer img{
 
 /*nav-bar-footer*/
 
-select{
+.nav-bar-footer{
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.nav-bar-footer select{
     border: none;
 }
 
 .footer-sx-bottom{
     float: left;
 }
-
 
 .footer-dx-bottom{
     float: right;
@@ -203,6 +221,10 @@ select{
     list-style: none;
     padding-left: 15px;
 }
+
+select{
+    border: none;
+   }
 
 
 
